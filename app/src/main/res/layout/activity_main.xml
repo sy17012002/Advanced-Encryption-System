@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loveb.securemessenger.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Advanced Encryption System"
+        android:textSize="35dp"
+        android:textColor="@color/dark"
+        android:layout_margin="20dp"
+    android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/aesmodified"
+                android:onClick="aes"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AES"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Send Message Securely!!" />
+
+        </LinearLayout>
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_weight="1"-->
+<!--            >-->
+<!--&lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="75dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="75dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:src="@mipmap/ic_settings_input_svideo_black_24dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:onClick="des"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_gravity="center_horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;                />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="DES"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_gravity="center_horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;                />&ndash;&gt;-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:padding="10dp"-->
+<!--        >-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_weight="1"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="75dp"-->
+<!--                android:src="@mipmap/ic_settings_input_svideo_black_24dp"-->
+<!--                android:onClick="rsa"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="RSA"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_weight="1"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="75dp"-->
+<!--                android:layout_height="75dp"-->
+<!--                android:src="@mipmap/ic_settings_input_svideo_black_24dp"-->
+<!--                android:onClick="md5"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="MD5"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+
+
+</LinearLayout>
